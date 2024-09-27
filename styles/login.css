@@ -1,0 +1,28 @@
+body {
+   background-color: #64bbf5;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+   margin: 0;
+   }
+.content img {
+   width: 150px;
+   height: auto;
+   }
+.login-form {
+   background-color: #ffffff;
+   padding: 20px;
+   border-radius: 10px;
+   box-shadow: 0 0 10px #0000001a;
+   width: 300px;
+   }
+.login-form input {
+   margin-bottom: 50px;
+   }
+.footer {
+   margin-top: 20px;
+   padding: 10px;
+   }

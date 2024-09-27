@@ -1,0 +1,43 @@
+body {
+    background-color: #ffffff;
+    text-align: center;
+}
+.navbar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+.header, .footer {
+    text-align: center;
+    padding: 40px;
+}
+.header {
+    background-color: rgb(100, 187, 245);
+    color: #fff;
+}
+.footer {
+    background-color: rgb(67, 155, 213);
+    color: #fff;
+}
+.content {
+    padding: 20px;
+    margin-top: 80px; /* To avoid overlap with the navbar */
+}
+.contact-form {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+}
+.contact-form h2 {
+    margin-bottom: 20px;
+}
+.contact-form .form-group {
+    margin-bottom: 20px;
+}
+.contact-form button {
+    width: 100%;
+}
