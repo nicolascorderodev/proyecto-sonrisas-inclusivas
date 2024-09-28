@@ -41,9 +41,10 @@
 
 .contenedor-info img {
     margin: 0 auto; 
-    width: 500px;
+    width: 100%;
+    margin-bottom: 40px; 
+    height: auto;
     display: block; 
-    margin-bottom: 70px; 
 }
 .principal {
     color: #76b2ee;
