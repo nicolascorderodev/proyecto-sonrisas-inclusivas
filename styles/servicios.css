@@ -1,77 +1,58 @@
-body {
-    background-color: #f0f8ff;
+.body {
+    background-color: #f9f2f2;
     font-family: Arial, sans-serif;
     margin: 0 auto;
     padding: 0 auto;
 }
 
-h1 {
+.header-pagina {
+    text-align: center;
+    padding: 4px;
+    background-color: #4baced;
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+.footer-pagina {
+    text-align: center;
+    padding: 25px;
+    background: #4baced;
+    color: #000000;
+    margin-top: 10px;
+}
+
+.palabras-importantes {
     font-weight: bold;
 }
 
-.navbar {
-    background-color: #64bbf5;
-    padding: 10px;
-}
-
-.navbar a {
-    color: white;
-    text-decoration: none;
-    padding: 10px;
-}
-
-.navbar a:hover {
-    background-color: #429bd5;
-}
-
-header, footer {
-    text-align: center;
-    padding: 20px;
-}
-
-header {
-    background-color: #64bbf5;
-    color: white;
-}
-
-footer {
-    background-color: #429bd5;
-    color: white;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
-
-main {
-    padding: 20px;
-}
-
-.services {
+.contenedor-servicios {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    padding: 30px;
 }
 
-.service {
-    background-color: #ffffff;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    padding: 80px;
-    margin: 10px;
-    width: calc(33% - 40px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+.servicio {
+    background-color: #d0d2d4;
+    border: 1px solid #4a4a4a74;
+    border-radius: 10px;
+    margin: 30px;
     text-align: center;
+    width: 100%;
+    height: 100%;
 }
 
-.service h2 {
-    margin-top: 0;
-}
-
-.service p {
-    margin: 10px 0;
-}
-
-.price {
+.precio {
+    font-size: 25px;
     font-weight: bold;
-    color: #64bbf5;
+    color: #000000;
+}
+
+.navbar-nav .nav-link {
+    color: #439bd5 !important;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #fff !important;
+    background-color: #439bd5 !important;
 }
