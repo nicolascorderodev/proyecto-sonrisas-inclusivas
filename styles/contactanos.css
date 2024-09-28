@@ -1,43 +1,62 @@
-body {
-    background-color: #ffffff;
-    text-align: center;
+.body {
+    background-color: #f9f2f2;
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    padding: 0 auto;
 }
-.navbar {
-    width: 100%;
-    position: fixed;
-    top: 0;
-    z-index: 1000;
-}
-.header, .footer {
+
+.header-pagina {
     text-align: center;
+    padding: 4px;
+    background-color: #4baced;
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+.footer-pagina {
+    text-align: center;
+    padding: 25px;
+    background: #4baced;
+    color: #000000;
+    margin-top: 10px;
+}
+
+.palabras-importantes {
+    font-weight: bold;
+}
+
+.contenedor-formulario {
     padding: 40px;
 }
-.header {
-    background-color: rgb(100, 187, 245);
-    color: #fff;
-}
-.footer {
-    background-color: rgb(67, 155, 213);
-    color: #fff;
-}
-.content {
-    padding: 20px;
-    margin-top: 80px; /* To avoid overlap with the navbar */
-}
-.contact-form {
-    background-color: #f9f9f9;
+
+.formulario-contacto {
+    background-color: #9c9c9c;
     padding: 30px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     max-width: 600px;
     margin: 0 auto;
+    text-align: center;
 }
-.contact-form h2 {
-    margin-bottom: 20px;
+
+.formulario-contacto .grupo-formulario {
+    margin: 25px;
 }
-.contact-form .form-group {
-    margin-bottom: 20px;
-}
-.contact-form button {
+
+.boton-contacto{
     width: 100%;
+    height: 100%;
+    background-color: #3797ea;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: #439bd5 !important;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #fff !important;
+    background-color: #439bd5 !important;
 }
