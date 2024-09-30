@@ -1,0 +1,61 @@
+body{
+    background-color: pink;
+    margin: 10px;
+    padding: auto;
+}
+
+h1{
+    color: red;
+    font-weight: normal;
+    font-family: impact;
+    text-align: center;
+    padding: 20px;
+    font-size: 35px;
+}
+
+p{
+    color:purple;
+    text-align: center;
+    font-family: franklin Gothic Medium;
+    font-size: 30px;
+}
+
+strong{
+    font-size: 25px;
+}
+
+.uso-de-clases{
+    background-color:orange;
+    width: auto;
+    height:auto;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+.uso-de-clases p, .uso-de-clases h1{
+    color: black;
+    font-family: arial;
+    font-weight: bold;
+}
+
+.uso-de-clases2{
+    background-color: green;
+    padding: 40px;
+}
+.uso-de-clases2 p, .uso-de-clases2 h1{
+    color: yellow;
+    font-style: italic;
+    font-size: 20px;
+
+}
+.uso-de-clases3{
+    background-color:teal;
+    padding: 100px;
+    margin: 100px;
+}
+.uso-de-clases3 p{
+    text-decoration: underline;
+    font-style: normal;
+    color: purple;
+    font-size: 30px;
+}
+
